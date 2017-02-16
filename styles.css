@@ -1,52 +1,33 @@
-body {
-    margin: 0;
-}
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul.topnav li {
-    float: right;
-}
-
-ul.topnav li a {
-    display: block;
-    color: white;
+ul li{
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: inline;
+    font-size:25px;
+    padding: 10px;
 }
 
-ul.topnav li a:hover:not(.active) {
-    background-color: #111;
-}
-
-ul.topnav li a.active {
-    text-decoration: underline;
+li:before {
+    content: "/";
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {
+    ul li {
+        display: block;
         float: none;
+    }
+    li:before {
+        content: none;
+        padding-right: 10px;
     }
 }
 
-h1 {
+.main {
     text-align: center;
-    font-family: Titillium Web, Monospace, serif;
+    background-image: url("http://wallpapersinhd.in/wp-content/uploads/ktz/CSS-Background-images-3-Dark-Abstract-Texture-330a3jwjxqu5spucqsl822.jpg");
 }
 
-.thick-white-border {
-    border-color: white;
-    border-width: 2.5px;
-    border-style: solid;
-    border-radius: 50%;
-    width: 30%;
-    height:auto;
+h1, h3, ul, a {
+    font-family:Titillium Web, Monospace;
+    font-size: auto;
+    color: #ccccb3;
 }

@@ -36,3 +36,17 @@ ul.topnav li a.active {
         float: none;
     }
 }
+
+h1 {
+    text-align: center;
+    font-family: Titillium Web, Monospace, serif;
+}
+
+.thick-white-border {
+    border-color: white;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 30%;
+    height:auto;
+}

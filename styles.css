@@ -1,33 +1,74 @@
-ul li{
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+ul.topNav li{
     text-align: center;
     display: inline;
     font-size:25px;
-    padding: 10px;
+    padding: 5px;
 }
 
-li:before {
+ul.topNav li:before {
     content: "/";
     padding-right: 10px;
 }
 
-@media screen and (max-width: 600px){
-    ul li {
+ul.topNav li.last-item:after {
+    content: "/";
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 700px){
+    ul.topNav {
+        padding-top: 50px;
+    }
+
+    ul.topNav li {
         display: block;
         float: none;
     }
-    li:before {
+    ul.topNav li:before {
         content: none;
-        padding-right: 10px;
+    }
+    ul.topNav li.last-item:after {
+        content: none;
     }
 }
 
 .main {
     text-align: center;
-    background-image: url("http://wallpapersinhd.in/wp-content/uploads/ktz/CSS-Background-images-3-Dark-Abstract-Texture-330a3jwjxqu5spucqsl822.jpg");
+
+    /* The image used */
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background: url("https://images3.alphacoders.com/626/626072.jpg") no-repeat center;
+    background-size: cover;
 }
 
 h1, h3, ul, a {
-    font-family:Titillium Web, Monospace;
+    font-family: Titillium Web, Monospace, serif;
     font-size: auto;
     color: #ccccb3;
+    margin-top: 20px;
+}
+
+.topHeader {
+    margin:0;
+}
+
+.aboutPage {
+    text-align: center;
+
+
+    /* The image used */
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background: url("http://sf.co.ua/15/06/wallpaper-50b30.jpg") no-repeat center;
+    background-size: cover;
 }

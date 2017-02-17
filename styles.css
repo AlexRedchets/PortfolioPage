@@ -1,12 +1,11 @@
 body, html {
     height: 100%;
-    margin: 0;
 }
 
 h1, h3, ul, a {
     font-family: Titillium Web, Monospace, serif;
     color: #ccccb3;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 ul.topNav li{

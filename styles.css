@@ -3,6 +3,12 @@ body, html {
     margin: 0;
 }
 
+h1, h3, ul, a {
+    font-family: Titillium Web, Monospace, serif;
+    color: #ccccb3;
+    margin-top: 20px;
+}
+
 ul.topNav li{
     text-align: center;
     display: inline;
@@ -37,27 +43,19 @@ ul.topNav li.last-item:after {
     }
 }
 
-.main {
+.homePage {
     text-align: center;
 
     /* The image used */
+    background-image: url("https://images3.alphacoders.com/626/626072.jpg");
+
     /* Full height */
     height: 100%;
 
     /* Center and scale the image nicely */
-    background: url("https://images3.alphacoders.com/626/626072.jpg") no-repeat center;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-h1, h3, ul, a {
-    font-family: Titillium Web, Monospace, serif;
-    font-size: auto;
-    color: #ccccb3;
-    margin-top: 20px;
-}
-
-.topHeader {
-    margin:0;
 }
 
 .aboutPage {
@@ -65,10 +63,58 @@ h1, h3, ul, a {
 
 
     /* The image used */
+    background-image: url("http://sf.co.ua/15/06/wallpaper-50b30.jpg");
+
     /* Full height */
     height: 100%;
 
     /* Center and scale the image nicely */
-    background: url("http://sf.co.ua/15/06/wallpaper-50b30.jpg") no-repeat center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectsPage {
+    text-align: center;
+
+    /* The image used */
+    background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillsPage {
+    text-align: center;
+
+    /* The image used */
+    background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactPage {
+    text-align: center;
+
+    /* The image used */
+    background-image: url("http://ultraimg.com/images/Ho6hQWs.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }

@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 
-h1, h3, ul, a {
+h1, h2, h3, ul, a {
     font-family: Titillium Web, Monospace, serif;
     color: #ccccb3;
     padding-top: 20px;
@@ -25,7 +25,7 @@ ul.topNav li.last-item:after {
     padding-left: 10px;
 }
 
-@media screen and (max-width: 767){
+@media screen and (max-width: 767px){
     ul.topNav {
         padding-top: 50px;
     }
@@ -87,9 +87,5 @@ ul.topNav li.last-item:after {
     border-color: white;
     border-width: 2.5px;
     border-style: solid;
-    border-radius: 50%;
-}
 
-h3 {
-    font-size: 150%;
 }

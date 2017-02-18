@@ -42,11 +42,8 @@ ul.topNav li.last-item:after {
     }
 }
 
-.homePage {
+.page {
     text-align: center;
-
-    /* The image used */
-    background-image: url("https://images3.alphacoders.com/626/626072.jpg");
 
     /* Full height */
     height: 100%;
@@ -55,65 +52,44 @@ ul.topNav li.last-item:after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.homePage {
+    background-image: url("https://images3.alphacoders.com/626/626072.jpg");
+
 }
 
 .aboutPage {
-    text-align: center;
-
-
-    /* The image used */
     background-image: url("http://sf.co.ua/15/06/wallpaper-50b30.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .projectsPage {
-    text-align: center;
-
-    /* The image used */
     background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .skillsPage {
-    text-align: center;
-
-    /* The image used */
     background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .contactPage {
-    text-align: center;
-
-    /* The image used */
     background-image: url("http://ultraimg.com/images/Ho6hQWs.jpg");
+}
 
-    /* Full height */
-    height: 100%;
+.aboutContainer {
+    background-color: grey;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.myPhoto {
+    margin: 35px 35px 10px 35px;
+    max-width: 30%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    border-color: white;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 150%;
 }

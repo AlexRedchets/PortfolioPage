@@ -16,3 +16,12 @@
 .container-fluid {
     padding: 60px 50px;
 }
+
+.container_skills {
+    text-align: center;
+}
+
+.container_skills i {
+    display: block;
+    margin: 0;
+    padding: 0; }

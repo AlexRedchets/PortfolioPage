@@ -1,91 +1,18 @@
-body, html {
-    height: 100%;
-}
-
-h1, h2, h3, ul, a {
-    font-family: Titillium Web, Monospace, serif;
+.jumbotron {
+    background-image: url("http://wallpapercave.com/wp/UoQbFHi.jpg");
     color: #ccccb3;
-    padding-top: 20px;
+    padding: 100px 30px;
 }
 
-ul.topNav li{
-    text-align: center;
-    display: inline;
-    font-size:25px;
-    padding: 5px;
-}
-
-ul.topNav li:before {
-    content: "/";
-    padding-right: 10px;
-}
-
-ul.topNav li.last-item:after {
-    content: "/";
-    padding-left: 10px;
-}
-
-@media screen and (max-width: 767px){
-    ul.topNav {
-        padding-top: 50px;
-    }
-
-    ul.topNav li {
-        display: block;
-        float: none;
-    }
-    ul.topNav li:before {
-        content: none;
-    }
-    ul.topNav li.last-item:after {
-        content: none;
-    }
-}
-
-.page {
-    text-align: center;
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.homePage {
-    background-image: url("https://images3.alphacoders.com/626/626072.jpg");
-
-}
-
-.aboutPage {
-    background-image: url("http://sf.co.ua/15/06/wallpaper-50b30.jpg");
-}
-
-.projectsPage {
-    background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg");
-}
-
-.skillsPage {
-    background-image: url("http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg");
-}
-
-.contactPage {
-    background-image: url("http://ultraimg.com/images/Ho6hQWs.jpg");
-}
-
-.aboutContainer {
-    background-color: grey;
-}
-
-.myPhoto {
-    margin: 35px 35px 10px 35px;
-    max-width: 30%;
-    height: auto;
-    width: auto\9; /* ie8 */
+.profile-image {
+    width: 200px;
+    height: 180px;
+    padding: 30px 30px 15px 30px;
     border-color: white;
     border-width: 2.5px;
     border-style: solid;
+}
 
+.container-fluid {
+    padding: 60px 50px;
 }

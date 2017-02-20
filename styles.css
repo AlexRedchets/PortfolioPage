@@ -21,7 +21,6 @@
     text-align: center;
 }
 
-.container_skills i {
-    display: block;
-    margin: 0;
-    padding: 0; }
+.colored {
+    font-size:50px;
+}

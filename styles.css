@@ -115,16 +115,22 @@ figcaption {
     color: #000;
 }
 
+
+
 .colored {
     font-size:50px;
 }
 
 .links_social li {
-    display: inline; }
+    display: inline;
+}
 
 .links_social i {
+    font-size: 30px;
     text-align: center;
-    display: inline-block; }
+    display: inline-block;
+    padding:10px;
+}
 
 footer .glyphicon {
     font-size: 20px;

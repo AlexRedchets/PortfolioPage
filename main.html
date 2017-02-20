@@ -18,7 +18,7 @@
 <!-- (Home Section) -->
 <header class="homePage page">
     <section id="home">
-        <h1 style="margin:0px;">@alex_redchets</h1>
+        <h1 style="margin:0; padding-top: 20px;"><strong>@alex_redchets</h1>
         <nav>
             <ul class="topNav" style="margin-top:20px;">
                 <li><a href="#about">about</a></li>
@@ -28,12 +28,13 @@
                 <li class="last-item"><a href="https://www.linkedin.com/in/alexeyredchets/" target="_blank">cv</a></li>
             </ul>
         </nav>
+        </strong>
     </section>
 </header>
 
 <!-- (About Section) -->
-<section id="about">
-    <div class="container">
+<section id="about" class="aboutPage page">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <img class="profile-image logo" src="https://avatars2.githubusercontent.com/u/18506231?v=3&s=460">
@@ -41,13 +42,13 @@
             <div class="col-lg-8 col-md-8 col-sm-8">
                 <h2 class="text-primary" style="text-decoration: overline;">About me</h2>
                 <h4>A strong creative thinker with an interest in everything related to the programming and Internet technology. Has the experience, ability and desire needed to design, create and develop complex software projects. His diligence and commitment to excellence are the key factors in the approach to work. Not afraid to take responsibility and at the same time always put the interests of the team above his own. Always tries to develop himself not only in programming, but also in other related areas that can improve the final result of work.</h4>
-                <p>Get in touch:</p>
-                <ul class="links_social">
-                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+
+                <ul class="links_social text-left">
+                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -113,40 +114,38 @@
 </section>
 
 <!-- (Skills Section) -->
-<section id="skills">
-    <div class="container_skills">
-        <h2 class="text-primary" style="text-decoration: overline;">Skills</h2>
-        <div class="row text-center">
-            <figure><i class="devicon-android-plain colored"></i><figcaption>Android</figcaption></figure>
-            <figure><i class="devicon-java-plain colored"></i><figcaption>Java</figcaption></figure>
-            <figure><i class="devicon-html5-plain colored"></i><figcaption>HTML</figcaption></figure>
-            <figure><i class="devicon-c-plain colored"></i><figcaption>C</figcaption></figure>
-            <figure><i class="devicon-css3-plain colored"></i><figcaption>CSS</figcaption></figure>
-            <figure><i class="devicon-javascript-plain colored"></i><figcaption>JavaScript</figcaption></figure>
-            <figure><i class="devicon-nodejs-plain colored"></i><figcaption>Node.js</figcaption></figure>
-            <figure><i class="devicon-mongodb-plain colored"></i><figcaption>MongoDB</figcaption></figure>
-            <figure><i class="devicon-bootstrap-plain colored"></i><figcaption>Bootstrap</figcaption></figure>
-            <figure><i class="devicon-jquery-plain colored"></i><figcaption>jQuery</figcaption></figure>
-            <figure><i class="devicon-github-plain colored"></i><figcaption>GitHub</figcaption></figure>
-            <figure><i class="devicon-amazonwebservices-plain-wordmark colored"></i><figcaption>AWS</figcaption></figure>
-            <figure><i class="devicon-ubuntu-plain colored"></i><figcaption>Ubuntu</figcaption></figure>
-        </div>
+<section id="skills" class="page">
+    <div class="container">
+        <h2 class="text-primary text-center" style="text-decoration: overline;">Skills</h2>
+        <figure><i class="devicon-android-plain colored"></i><figcaption>Android</figcaption></figure>
+        <figure><i class="devicon-java-plain colored"></i><figcaption>Java</figcaption></figure>
+        <figure><i class="devicon-html5-plain colored"></i><figcaption>HTML</figcaption></figure>
+        <figure><i class="devicon-c-plain colored"></i><figcaption>C</figcaption></figure>
+        <figure><i class="devicon-css3-plain colored"></i><figcaption>CSS</figcaption></figure>
+        <figure><i class="devicon-javascript-plain colored"></i><figcaption>JavaScript</figcaption></figure>
+        <figure><i class="devicon-nodejs-plain colored"></i><figcaption>Node.js</figcaption></figure>
+        <figure><i class="devicon-mongodb-plain colored"></i><figcaption>MongoDB</figcaption></figure>
+        <figure><i class="devicon-bootstrap-plain colored"></i><figcaption>Bootstrap</figcaption></figure>
+        <figure><i class="devicon-jquery-plain colored"></i><figcaption>jQuery</figcaption></figure>
+        <figure><i class="devicon-github-plain colored"></i><figcaption>GitHub</figcaption></figure>
+        <figure><i class="devicon-amazonwebservices-plain-wordmark colored"></i><figcaption>AWS</figcaption></figure>
+        <figure><i class="devicon-ubuntu-plain colored"></i><figcaption>Ubuntu</figcaption></figure>
     </div>
 </section>
 
 <!-- (Contact Section) -->
-<section id="contact">
+<section id="contact" class="page">
     <div class="container-fluid">
-        <h2 class="text-primary" style="text-decoration: overline;">Get in touch</h2>
+        <h2 class="text-primary text-left" style="text-decoration: overline;">Get in touch</h2>
         <div class="row">
             <div class="col-sm-5">
                 <p> Have questions about my work? See something I can improve? Just want to chat? Send me a message, I'd love to hear from you! </p>
                 <ul class="links_social">
-                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
             <div class="col-sm-7">

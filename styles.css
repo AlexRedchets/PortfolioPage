@@ -1,12 +1,12 @@
 body, html {
     height: 100%;
     font-family: Titillium Web, Monospace, serif;
-    color: #ccccb3;
+    color: #000;
 }
 
 ul.topNav li a {
     font-family: Titillium Web, Monospace, serif;
-    color: #ccccb3;
+    color: #000;
 }
 
 ul.topNav li {
@@ -49,36 +49,32 @@ ul.topNav li.last-item:after {
     .logo {
         max-width: 200px;
     }
-}
 
-.page {
-    text-align: center;
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.page {
-    text-align: center;
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    #projects img {
+        max-width: 350px;
+    }
 }
 
 .homePage {
-    background-image: url("http://wallpapercave.com/wp/UoQbFHi.jpg");
+    background-image: url("https://www.clipartsgram.com/image/1127858435-background-images-for-websites-24.jpg");
 
+}
+
+.aboutPage {
+    background-color:white;
+
+}
+
+.page {
+    text-align: center;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo {
@@ -86,17 +82,37 @@ ul.topNav li.last-item:after {
 }
 
 .profile-image {
-    border-color: white;
+    border-color: black;
     border-width: 2.5px;
     border-style: solid;
 }
 
 .container-fluid {
-    padding: 60px 50px;
+    padding: 20px 20px 20px 20px;
 }
 
 .container_skills {
     text-align: center;
+}
+
+/* figure {
+    float: left;
+    margin: 10;
+    text-align: center;
+    padding: 30px;
+} */
+
+#skills figure {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+figcaption {
+    padding: 10px;
+    font-family: Titillium Web, Monospace, serif;
+    color: #000;
 }
 
 .colored {

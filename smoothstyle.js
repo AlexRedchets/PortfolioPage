@@ -22,6 +22,4 @@ $(document).ready(function(){
             });
         } // End if
     });
-})/**
- * Created by azvk on 2017-02-20.
- */
+})

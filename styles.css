@@ -1,31 +1,32 @@
 body, html {
     height: 100%;
-}
-
-h1, h2, h3, ul, a {
     font-family: Titillium Web, Monospace, serif;
     color: #ccccb3;
-    padding-top: 20px;
 }
 
-ul.topNav li{
+ul.topNav li a {
+    font-family: Titillium Web, Monospace, serif;
+    color: #ccccb3;
+}
+
+ul.topNav li {
     text-align: center;
     display: inline;
     font-size:25px;
-    padding: 5px;
 }
 
 ul.topNav li:before {
     content: "/";
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 ul.topNav li.last-item:after {
     content: "/";
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
+
     ul.topNav {
         padding-top: 50px;
     }
@@ -34,13 +35,34 @@ ul.topNav li.last-item:after {
         display: block;
         float: none;
     }
+
     ul.topNav li:before {
         content: none;
     }
+
     ul.topNav li.last-item:after {
         content: none;
     }
 }
+
+@media screen and (max-width: 993px){
+    .logo {
+        max-width: 200px;
+    }
+}
+
+.page {
+    text-align: center;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .page {
     text-align: center;
@@ -59,10 +81,11 @@ ul.topNav li.last-item:after {
 
 }
 
+.logo {
+    width: 300px;
+}
+
 .profile-image {
-    width: 200px;
-    height: 180px;
-    padding: 30px 30px 15px 30px;
     border-color: white;
     border-width: 2.5px;
     border-style: solid;
@@ -92,4 +115,3 @@ footer .glyphicon {
     margin-bottom: 20px;
     color: #000;
 }
-

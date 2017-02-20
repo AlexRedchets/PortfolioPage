@@ -1,7 +1,62 @@
-.jumbotron {
-    background-image: url("http://wallpapercave.com/wp/UoQbFHi.jpg");
+body, html {
+    height: 100%;
+}
+
+h1, h2, h3, ul, a {
+    font-family: Titillium Web, Monospace, serif;
     color: #ccccb3;
-    padding: 100px 30px;
+    padding-top: 20px;
+}
+
+ul.topNav li{
+    text-align: center;
+    display: inline;
+    font-size:25px;
+    padding: 5px;
+}
+
+ul.topNav li:before {
+    content: "/";
+    padding-right: 10px;
+}
+
+ul.topNav li.last-item:after {
+    content: "/";
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 767px){
+    ul.topNav {
+        padding-top: 50px;
+    }
+
+    ul.topNav li {
+        display: block;
+        float: none;
+    }
+    ul.topNav li:before {
+        content: none;
+    }
+    ul.topNav li.last-item:after {
+        content: none;
+    }
+}
+
+.page {
+    text-align: center;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homePage {
+    background-image: url("http://wallpapercave.com/wp/UoQbFHi.jpg");
+
 }
 
 .profile-image {
@@ -24,3 +79,17 @@
 .colored {
     font-size:50px;
 }
+
+.links_social li {
+    display: inline; }
+
+.links_social i {
+    text-align: center;
+    display: inline-block; }
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+

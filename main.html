@@ -9,88 +9,110 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="smoothstyle.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 </head>
 <body>
 
-<div class="jumbotron text-center">
-    <h1>Alex Redchets</h1>
-    <h3>Full Stack & Android App Developer</h3>
-</div>
+<header class="homePage page">
+    <section id="home">
+        <h1 style="margin:0px;">@alex_redchets</h1>
+        <nav>
+            <ul class="topNav" style="margin-top:20px;">
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li class="last-item"><a href="https://www.linkedin.com/in/alexeyredchets/" target="_blank">cv</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4">
-            <img class="profile-image" src="https://avatars2.githubusercontent.com/u/18506231?v=3&s=460">
-        </div>
-        <div class="col-sm-8">
-            <h2 class="text-primary" style="text-decoration: overline;">About me</h2>
-            <h4>A strong creative thinker with an interest in everything related to the programming and Internet technology. Has the experience, ability and desire needed to design, create and develop complex software projects. His diligence and commitment to excellence are the key factors in the approach to work. Not afraid to take responsibility and at the same time always put the interests of the team above his own. Always tries to develop himself not only in programming, but also in other related areas that can improve the final result of work.</h4>
-            <p>Get in touch:</p>
+<section id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="profile-image" src="https://avatars2.githubusercontent.com/u/18506231?v=3&s=460">
+            </div>
+            <div class="col-sm-8">
+                <h2 class="text-primary" style="text-decoration: overline;">About me</h2>
+                <h4>A strong creative thinker with an interest in everything related to the programming and Internet technology. Has the experience, ability and desire needed to design, create and develop complex software projects. His diligence and commitment to excellence are the key factors in the approach to work. Not afraid to take responsibility and at the same time always put the interests of the team above his own. Always tries to develop himself not only in programming, but also in other related areas that can improve the final result of work.</h4>
+                <p>Get in touch:</p>
+                <ul class="links_social">
+                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="container-fluid">
-    <h2 class="text-primary">Projects</h2>
-    <br>
-    <div class="row">
-        <div class="col-sm-6">
-            <h2>National Hockey Team</h2>
-            <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
+<section id="projects">
+    <div class="container-fluid">
+        <h2 class="text-primary" style="text-decoration: overline;">Projects</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>National Hockey Team</h2>
+                <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
+                    <img src="http://www.rantsports.com/nhl/files/2012/09/pensGoal.jpg" alt="NHT" style="width:450px">
+                </a>
+            </div>
         </div>
-        <div class="col-sm-6 text-center">
-            <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
-                <img src="http://www.rantsports.com/nhl/files/2012/09/pensGoal.jpg" alt="NHT" style="width:450px">
-            </a>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Weather ++</h2>
+                <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
+                    <img src="http://sports.cbsimg.net/images/nhl/blog/091612_khl.jpg" alt="NHT" style="width:450px">
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>LastFM API</h2>
+                <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
+                    <img src="http://2.cdn.nhle.com/nhl/images/upload/2014/05/pens_050414_672.jpg" alt="NHT" style="width:450px">
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Pittsburgh Penguins Lite</h2>
+                <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
+                    <img src="http://www.puckedinthehead.com/wp-content/images/Pens-Wales-Trophy.jpg" alt="NHT" style="width:450px">
+                </a>
+            </div>
         </div>
     </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="col-sm-6">
-            <h2>Weather ++</h2>
-            <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
-        </div>
-        <div class="col-sm-6 text-center">
-            <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
-                <img src="http://sports.cbsimg.net/images/nhl/blog/091612_khl.jpg" alt="NHT" style="width:450px">
-            </a>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="col-sm-6">
-            <h2>LastFM API</h2>
-            <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
-        </div>
-        <div class="col-sm-6 text-center">
-            <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
-                <img src="http://2.cdn.nhle.com/nhl/images/upload/2014/05/pens_050414_672.jpg" alt="NHT" style="width:450px">
-            </a>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="col-sm-6">
-            <h2>Pittsburgh Penguins Lite</h2>
-            <h4>Following the Russian Revolution, the Russian Soviet Federative Socialist Republic became the largest and leading constituent of the Union of Soviet Socialist Republics, the world's first constitutionally socialist state.</h4>
-        </div>
-        <div class="col-sm-6 text-center">
-            <a target="_blank" href="https://github.com/AlexRedchets/NationalHockeyTeamsNew">
-                <img src="http://www.puckedinthehead.com/wp-content/images/Pens-Wales-Trophy.jpg" alt="NHT" style="width:450px">
-            </a>
-        </div>
-    </div>
-</div>
+</section>
 
-<div class="container_skills">
-    <h2 class="text-primary">Skills</h2>
-    <div class="row text-center">
-        <div class="col-lg-12">
+<section id="skills">
+    <div class="container_skills">
+        <h2 class="text-primary" style="text-decoration: overline;">Skills</h2>
+        <div class="row text-center">
             <figure><i class="devicon-android-plain colored"></i><figcaption>Android</figcaption></figure>
             <figure><i class="devicon-java-plain colored"></i><figcaption>Java</figcaption></figure>
             <figure><i class="devicon-html5-plain colored"></i><figcaption>HTML</figcaption></figure>
@@ -106,57 +128,48 @@
             <figure><i class="devicon-ubuntu-plain colored"></i><figcaption>Ubuntu</figcaption></figure>
         </div>
     </div>
-</div>
+</section>
 
-<div class="container-fluid">
-    <h2 class="text-primary text-center">Get in touch</h2>
-    <div class="row">
-        <div class="col-sm-5">
-            <p>Have questions about my work? See something I can improve? Just want to chat? Send me a message, I'd love to hear from you!</p>
-            <ul class="links_social">
-                <li>
-                    <a href="http://codepen.io/iospadov/" aria-label="link to profile on codepen" title="Codepen profile">
-                        <i class="fa fa-codepen" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/ignatospadov" aria-label="link to profile on facebook" title="Facebook profile">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Aror" aria-label="link to profile on github" title="GitHub profile">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://ca.linkedin.com/in/iospadov" aria-label="link to profile on linkedin" title="LinkedIn profile">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://stackoverflow.com/users/6275623/ignat-ospadov" aria-label="link to profile on stackoverflow" title="StackOverflow profile">
-                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/IOspadov" aria-label="link to profile on twitter" title="Twitter profile">
-                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:hello@ospadov.com" aria-label="link to personal email iospadov at gmail dot com" title="Email">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
+<section id="contact">
+    <div class="container-fluid">
+        <h2 class="text-primary" style="text-decoration: overline;">Get in touch</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p> Have questions about my work? See something I can improve? Just want to chat? Send me a message, I'd love to hear from you! </p>
+                <ul class="links_social">
+                    <li><a href="https://github.com/AlexRedchets" aria-label="link to github" title="GitHub profile"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="http://codepen.io/azvk/" aria-label="link to codepen" title="Codepen profile"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/alexeyredchets/" aria-label="link to linkedin" title="LinkedIn profile"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/alex.redchets" aria-label="link to facebook" title="Facebook profile"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:alexey.redchets@gmail.com" aria-label="link to email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
-
-
-
+<footer class="container-fluid text-center">
+    <a href="#home" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Created by @alex_redchets</p>
+</footer>
 
 </body>
 </html>
